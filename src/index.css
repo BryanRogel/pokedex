@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Open+Sans:ital,wght@0,400;0,600;1,700&display=swap');
+
+body {
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+}
+
+/* Scroll style */
+
+#scroll-bar::-webkit-scrollbar-track
+{
+	background-color: #ffffff;
+}
+
+#scroll-bar::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #979797;
+}
+
+#scroll-bar::-webkit-scrollbar-thumb
+{
+	background-color: #555;
+}

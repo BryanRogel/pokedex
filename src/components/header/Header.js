@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
 import Location from '../../functions/location/Location';
+import logo from './../../assets/images/logo.png';
 
 function Header() {
 
@@ -21,7 +22,7 @@ function Header() {
     <Style>
       <nav className="header">
         <div className="max-size">
-          <img src="https://i.ibb.co/Gxn52sw/Pokedex-1.png" className="logo" alt="Tittle" style={{ height: '50px' }} />
+          <img src={logo} className="logo" alt="logo" style={{ height: '50px' }} />
           <input className="menu-btn" type="checkbox" id="menu-btn" />
             <label className="menu-icon" htmlFor="menu-btn"><span className="navicon"></span></label>
             <ul className="menu">

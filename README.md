@@ -4,7 +4,7 @@ A personal project created in React JS.
 
   - Infinity Scroll.
   - Responsive.
-  - Using the pokemon API.
+  - Using the [pokemon API](https://pokeapi.co/).
 
 ![Alt Text](./public/gifs/pokemonProyect.gif)
 

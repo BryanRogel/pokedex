@@ -11,7 +11,7 @@ import './index.css';
 ReactDOM.render(
   <Provider store={store}>
       <Router>
-          <App class="scrollbar" id="style-1" />
+          <App className="scrollbar" id="style-1" />
       </Router>
   </Provider>,
 document.getElementById('root'));

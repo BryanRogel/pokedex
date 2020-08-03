@@ -15,8 +15,8 @@ function App() {
         <Header/>
       </Switch>
       <Switch>
-        <Route type="all" exact path='/pokedex/' component={Home} />
-        <Route type="all" exact path='/pokedex/about' component={About} />
+        <Route type="all" exact path='/' component={Home} />
+        <Route type="all" exact path='/about' component={About} />
         <Route component={Error404} />
       </Switch>
     </div>

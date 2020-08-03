@@ -10,11 +10,11 @@ function Header() {
   const menuItems =[
     {
       'name':'Home', 
-      'route': '/pokedex'
+      'route': '/'
     },
     {
       'name':'About', 
-      'route': '/pokedex/about'
+      'route': '/about'
     }
   ];
 

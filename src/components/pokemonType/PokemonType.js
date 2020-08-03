@@ -2,8 +2,8 @@ import React from 'react';
 
 function PokemonType({ pokemonData }){
     return(
-        <div>
-            { pokemonData && pokemonData.types.map((pokemonType, index) => ( //Mapping the tipe of the pokemon
+        <>
+            { pokemonData.types.map((pokemonType, index) => (
                 <h3
                     className={`card-type card-${ pokemonType.type.name.toLowerCase()}-type`}
                     key={index}
@@ -12,7 +12,7 @@ function PokemonType({ pokemonData }){
                     {pokemonType.type.name.toUpperCase()}
                 </h3>
             ))}
-        </div>
+        </>
     );
 }
 

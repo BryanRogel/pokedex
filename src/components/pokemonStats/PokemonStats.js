@@ -3,7 +3,7 @@ import React from 'react';
 function PokemonStats({ pokemonData }){
     return(
         <tbody>
-            { pokemonData && pokemonData.stats.map((pokemonStats, index) => ( //Mapping the stats of the pokemon
+            { pokemonData.stats.map((pokemonStats, index) => (
                 <tr key={index} id={index}>
                     <th>
                         {

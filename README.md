@@ -6,6 +6,8 @@ A personal project created in React JS.
   - Responsive.
   - Using the [pokemon API](https://pokeapi.co/).
 
+# [Live demo](https://pokedexjs.bryanrogel.vercel.app/).
+
 ![Alt Text](./public/gifs/pokemonProyect.gif)
 
 ### Tech
